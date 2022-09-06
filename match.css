@@ -90,16 +90,11 @@
   cursor: pointer;
 
 }
-.btn:hover{
-  color:red;
-}
-
-.primary a{
- 
+.primary{
+  background-color: white;
   color: black;
   width: 100%;
   display:inline-block ;
-  text-decoration: none;
 }
 .secondary{
   background-color: white;
@@ -109,7 +104,7 @@
 }
 .accident{
   background-color: red;
-  color: black;
+  color: white;
   width: 100%;
   display:inline-block ;
 }
@@ -121,9 +116,12 @@
   grid-row-gap: 20px;
   margin-right: 0;
   
+  
 }
 
 .blog{
+  
+ 
   width:250px;
   height: 27opx;
   border: 1px solid black;
@@ -131,9 +129,25 @@
  
 }
 
-.blog .blog-banner img{
-  width:250px;
-  height:124px; 
+.blog-flags{
+  display: flex;
+  justify-content:space-evenly;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.blog-flags p{
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.blog .blog-banner .blog-flags img{
+  width:90px;
+  height:60px; 
+  margin-top: 20px;
+}
+.blog .blog-banner img p{
+  margin-top: 20px;
 }
 .blog .bttn {
   background-color:transparent;
@@ -149,14 +163,14 @@
 .blog .blog-tittle{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin-top: 15px;
-  margin-left: 10px;
+  padding: 20px;
+  margin-left: 30px;
+ 
 }
 .blog-info{
   display: flex;
-  margin-top: 15px;
-  justify-content: space-between;
-  margin:10px;
+  
+  margin-left: 30px;
   padding: 10px;
 
  
